@@ -1,79 +1,78 @@
-Malaria Prediction
-Overview
-Malaria is a life-threatening disease caused by parasites transmitted to humans through the bites of infected female Anopheles mosquitoes. Despite significant progress in reducing malaria incidence, it remains a major public health concern, particularly in tropical regions. Accurate prediction models can aid in early detection and effective intervention strategies.
+# MLP-DRIVEN MALARIA DISEASE OUTBREAK ANALYSIS FROM ENVIRONMENTAL DATA FOR PUBLIC HEALTH MANAGEMENT
 
-Project Description
-This project aims to develop a predictive model for malaria incidence using various data sources, including climate variables, historical malaria cases, and other relevant factors. By analyzing these data, the model seeks to forecast malaria outbreaks, enabling healthcare providers and policymakers to implement timely preventive measures.
+## Overview
 
-Features
-Data Collection: Aggregates data from multiple sources such as meteorological data, health records, and demographic information.
-Data Preprocessing: Handles missing values, normalizes data, and performs feature engineering to enhance model performance.
-Predictive Modeling: Utilizes machine learning algorithms to predict malaria incidence based on input features.
-Visualization: Generates charts and maps to visualize predicted malaria hotspots and trends.
-Installation
-Clone the repository:
+Malaria is a life-threatening disease caused by parasites transmitted to humans through the bites of infected female Anopheles mosquitoes. This project aims to develop a predictive model for malaria incidence using machine learning techniques, aiding in early detection and intervention strategies.
 
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/Malaria-Prediction.git
-Navigate to the project directory:
+## Features
 
-bash
-Copy
-Edit
-cd Malaria-Prediction
-Install the required dependencies:
+- **Data Collection**: Aggregates data from multiple sources such as meteorological data, health records, and demographic information.
+- **Data Preprocessing**: Handles missing values, normalizes data, and performs feature engineering to enhance model performance.
+- **Predictive Modeling**: Utilizes machine learning algorithms to predict malaria incidence based on input features.
+- **Visualization**: Generates charts and maps to visualize predicted malaria hotspots and trends.
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Prepare the data: Ensure all necessary datasets are in the data/ directory.
+## Installation
 
-Run data preprocessing:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YourUsername/Malaria-Prediction.git
+   ```
 
-bash
-Copy
-Edit
-python preprocess.py
-Train the model:
+2. **Navigate to the project directory**:
+   ```bash
+   cd Malaria-Prediction
+   ```
 
-bash
-Copy
-Edit
-python train_model.py
-Make predictions:
+3. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy
-Edit
-python predict.py
-Dataset
+## Usage
+
+1. **Prepare the data**: Ensure all necessary datasets are in the `data/` directory.
+2. **Run data preprocessing**:
+   ```bash
+   python preprocess.py
+   ```
+3. **Train the model**:
+   ```bash
+   python train_model.py
+   ```
+4. **Make predictions**:
+   ```bash
+   python predict.py
+   ```
+
+## Dataset
+
 The model relies on the following datasets:
 
-Climate Data: Temperature, precipitation, and humidity levels.
-Historical Malaria Cases: Records of reported malaria incidents over time.
-Demographic Data: Population density, age distribution, and other relevant factors.
-Note: Ensure compliance with data usage policies and obtain necessary permissions before using any datasets.
+- **Climate Data**: Temperature, precipitation, and humidity levels.
+- **Historical Malaria Cases**: Records of reported malaria incidents over time.
+- **Demographic Data**: Population density, age distribution, and other relevant factors.
 
-Model
-The predictive model employs a time series distributed lag nonlinear model, which has been shown to perform well for short-term malaria predictions. For instance, a study conducted in Vhembe, Limpopo, South Africa, demonstrated that such a model could accurately forecast malaria cases up to 16 weeks ahead 
-NATURE.COM
-.
+*Note*: Ensure compliance with data usage policies and obtain necessary permissions before using any datasets.
 
-Results
+## Model
+
+The predictive model employs a machine learning algorithm to forecast malaria cases. The model is trained using historical malaria case data and environmental factors.
+
+## Results
+
 Upon training, the model achieved the following performance metrics:
 
-Short-term predictions (1-2 weeks ahead): Correlation coefficient (r) > 0.8
-Medium-term predictions (up to 16 weeks ahead): Correlation coefficient (r) > 0.7
-These results are consistent with findings from previous research, indicating the model's robustness in forecasting malaria incidence 
-NCBI.NLM.NIH.GOV
-.
+- **Short-term predictions (1-2 weeks ahead)**: High correlation with actual malaria cases.
+- **Medium-term predictions (up to 16 weeks ahead)**: Reliable accuracy for forecasting outbreaks.
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your contributions align with the project's objectives and maintain code quality standards.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+We acknowledge the World Health Organization and other institutions for providing comprehensive data and research on malaria.
