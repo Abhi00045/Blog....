@@ -68,11 +68,3 @@ Upon training, the model achieved the following performance metrics:
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your contributions align with the project's objectives and maintain code quality standards.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-We acknowledge the World Health Organization and other institutions for providing comprehensive data and research on malaria.
